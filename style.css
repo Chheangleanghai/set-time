@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui, sans-serif;
-    background-image: url(../public/image.png);
+    background-image: url(./asset/image.png);
     background-position: center -200px;
     background-size: cover;
     background-repeat: no-repeat;
