@@ -14,7 +14,7 @@
       const alertRow = document.getElementById("alertRow");
       const logArea = document.getElementById("logArea");
       const stateLabel = document.getElementById("stateLabel");
-      const ringFill = document.getElementById("ringFill");
+
       const flashEl = document.getElementById("flashEl");
       const sFill = document.getElementById("sFill");
       const sThumb = document.getElementById("sThumb");
