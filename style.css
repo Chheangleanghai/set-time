@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +18,7 @@ body {
     color: #ffffff;
     position: relative;
     z-index: 1;
+    flex-direction: column;
     /* backdrop-filter: blur(px); */
 }
 body::before {
@@ -28,7 +30,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.82; /* adjust 0–1 for how dark you want */
+    opacity: 0.8; /* adjust 0–1 for how dark you want */
     z-index: -1;
 }
 
@@ -40,6 +42,25 @@ body::before {
     gap: 1.25rem;
     width: 100%;
     max-width: 500px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+.logo img {
+    width: 100px;
+}
+.logo h1{
+     font-family: "Kantumruy Pro", sans-serif;
+     color: white;
+     font-weight: 600;
+}
+.logo h1 span{
+    color: rgb(201, 201, 0);
+    letter-spacing: -2px;
+    font-family: sans-serif;
 }
 
 .card {
@@ -69,12 +90,12 @@ body::before {
 .ring-track {
     fill: none;
     stroke: #e0e0da;
-    stroke-width: 6;
+    stroke-width: 4;
 }
 
 .ring-fill {
     fill: none;
-    stroke-width: 6;
+    stroke-width: 4;
     stroke-linecap: round;
     transition:
         stroke-dashoffset 1s linear,
