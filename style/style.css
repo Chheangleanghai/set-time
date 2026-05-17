@@ -6,7 +6,7 @@
 
 body {
     font-family: system-ui, sans-serif;
-    background-image: url(./public/image.png);
+    background-image: url(../public/image.png);
     background-position: center -200px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.86; /* adjust 0–1 for how dark you want */
+    opacity: 0.82; /* adjust 0–1 for how dark you want */
     z-index: -1;
 }
 
@@ -189,10 +189,11 @@ body::before {
 }
 
 .alert-row {
-    font-size: 12px;
+    font-size: 15px;
     color: #cccccc;
     text-align: center;
 }
+
 
 .alert-row b {
     color: #00cd0a;
